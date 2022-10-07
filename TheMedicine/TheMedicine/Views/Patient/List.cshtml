@@ -1,0 +1,11 @@
+﻿<h2>Пациенты</h2>
+@{
+    foreach (var patient in Model.allPatient)
+    {
+        <div>
+            <h3>Фамилия: @patient.Surname Имя: @patient.Name</h3>
+        </div>
+
+    }
+}
+
